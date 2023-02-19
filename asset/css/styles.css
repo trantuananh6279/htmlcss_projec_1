@@ -107,7 +107,7 @@ a {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
-    color: #687691;
+    color: #687690;
     letter-spacing: 0.01em;
 }
 
@@ -164,7 +164,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 /* Guides */
 .guides {
